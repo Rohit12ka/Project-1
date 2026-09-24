@@ -1,25 +1,41 @@
 # 🧮 Simple Calculator
 
-A simple calculator project built using **Python**.
-It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+A clean and beginner-friendly **Simple Calculator** built with **Python** that performs basic arithmetic operations through an interactive command-line interface.
 
-## 📌 Features
+---
+
+## 📌 About The Project
+
+The Simple Calculator is a Python-based project designed to perform fundamental mathematical calculations.
+
+The user can enter two numbers, select an operation, and instantly get the calculated result.
+
+This project demonstrates the practical use of **Python fundamentals, functions, conditional statements, loops, user input, and exception handling**.
+
+---
+
+## ✨ Features
 
 * ➕ Addition
 * ➖ Subtraction
 * ✖️ Multiplication
 * ➗ Division
-* 🔢 User input support
-* ⚠️ Handles division by zero
-* 🔄 Simple and easy-to-use interface
+* 🔢 Accepts integer and decimal values
+* ⚠️ Handles division-by-zero errors
+* 🔄 Allows multiple calculations
+* 🖥️ Simple command-line interface
+* 🧹 Clean and easy-to-understand code
+
+---
 
 ## 🛠️ Technologies Used
 
-* **Python 3**
-* Functions
-* Conditional Statements
-* User Input
-* Exception Handling
+| Technology | Purpose                   |
+| ---------- | ------------------------- |
+| 🐍 Python  | Core programming language |
+| 💻 CLI     | User interaction          |
+
+---
 
 ## 📂 Project Structure
 
@@ -27,81 +43,188 @@ It performs basic arithmetic operations such as addition, subtraction, multiplic
 Simple-Calculator/
 │
 ├── calculator.py
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## 🚀 How to Run
+---
 
-### 1. Clone the repository
+## 🚀 Getting Started
+
+Follow the steps below to run this project on your local machine.
+
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Simple-Calculator.git
+git clone https://github.com/your-username/simple-calculator.git
 ```
 
-### 2. Open the project folder
+### 2️⃣ Navigate to the Project
 
 ```bash
-cd Simple-Calculator
+cd simple-calculator
 ```
 
-### 3. Run the program
+### 3️⃣ Run the Program
 
 ```bash
 python calculator.py
 ```
 
-## 💻 Example
+---
+
+## 💻 How It Works
+
+The calculator follows a simple workflow:
 
 ```text
-===== Simple Calculator =====
+Start
+  ↓
+Enter First Number
+  ↓
+Enter Second Number
+  ↓
+Select Operation
+  ↓
+Perform Calculation
+  ↓
+Display Result
+  ↓
+Continue / Exit
+```
 
-Enter first number: 20
+---
+
+## 🖥️ Example Output
+
+```text
+================================
+       SIMPLE CALCULATOR
+================================
+
+Enter first number: 25
 Enter second number: 5
 
-Select operation:
+Choose an operation:
 1. Addition
 2. Subtraction
 3. Multiplication
 4. Division
 
-Enter your choice: 4
+Enter your choice: 3
 
-Result: 4.0
+--------------------------------
+Result: 125
+--------------------------------
+
+Do you want to continue? (yes/no): no
+
+Thank you for using the calculator!
 ```
 
-## 📖 Operations
+---
 
-| Choice | Operation      | Example     |
-| ------ | -------------- | ----------- |
-| 1      | Addition       | 10 + 5 = 15 |
-| 2      | Subtraction    | 10 - 5 = 5  |
-| 3      | Multiplication | 10 × 5 = 50 |
-| 4      | Division       | 10 ÷ 5 = 2  |
+## ➗ Supported Operations
+
+| Operation      | Symbol |  Example | Result |
+| -------------- | -----: | -------: | -----: |
+| Addition       |    `+` | `10 + 5` |   `15` |
+| Subtraction    |    `-` | `10 - 5` |    `5` |
+| Multiplication |    `*` | `10 * 5` |   `50` |
+| Division       |    `/` | `10 / 5` |    `2` |
+
+---
+
+## 🧠 Python Concepts Used
+
+This project helps demonstrate the following Python concepts:
+
+* Variables
+* Data Types
+* User Input
+* Type Casting
+* Operators
+* `if-elif-else`
+* Functions
+* Loops
+* Exception Handling
+* Basic Program Flow
+
+---
+
+## ⚠️ Error Handling
+
+The calculator handles common input errors, including:
+
+* Invalid numerical input
+* Invalid operation selection
+* Division by zero
+
+Example:
+
+```text
+Enter first number: 10
+Enter second number: 0
+
+Error: Cannot divide by zero.
+```
+
+---
 
 ## 🎯 Learning Objectives
 
-This project was created to practice:
+The main objective of this project is to strengthen the understanding of **Python programming fundamentals** by building a small but functional real-world application.
 
-* Python basics
-* Functions
-* Variables and data types
-* Conditional statements
-* User input
-* Error handling
-* Basic project structure
+Through this project, you can practice:
+
+> **Input → Processing → Output**
+
+which is one of the fundamental patterns in programming.
+
+---
 
 ## 🔮 Future Improvements
 
-* Add a graphical user interface (GUI)
-* Add percentage calculation
-* Add square root and power operations
-* Add calculation history
-* Add scientific calculator features
+The project can be extended with additional features such as:
+
+* [ ] Scientific calculator operations
+* [ ] Square root and power functions
+* [ ] Percentage calculation
+* [ ] Calculation history
+* [ ] Graphical User Interface (GUI)
+* [ ] Keyboard shortcuts
+* [ ] Dark/Light theme
+* [ ] Export calculation history
+
+---
+
+## 📸 Project Preview
+
+Add a screenshot of your calculator here:
+
+```text
+![Calculator Preview](screenshots/calculator.png)
+```
+
+---
 
 ## 👨‍💻 Author
 
-**Dev Yadav**
+### Dev Yadav
 
-### ⭐ Support
+**B.Tech Computer Science & Engineering**
 
-If you found this project useful, consider giving the repository a ⭐ on GitHub.
+Interested in:
+
+* 🐍 Python
+* 🤖 Artificial Intelligence
+* 📊 Data Science
+* 💻 Software Development
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful or helpful for learning Python, consider giving this repository a ⭐.
+
+**Thanks for visiting! 🚀**
